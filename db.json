@@ -1,0 +1,155 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "int",
+      "cuit": "boolean",
+      "createdAt": "date",
+      "products": "Product[]",
+      "mail":""
+    },
+    {
+      "id": 2,
+      "name": "int",
+      "cuit": "boolean",
+      "createdAt": "date",
+      "products": "Product[]",
+      "mail":""
+    },
+    {
+      "id": 3,
+      "name": "int",
+      "cuit": "boolean",
+      "createdAt": "date",
+      "products": "Product[]",
+      "mail":""
+    },
+    {
+      "id": 4,
+      "name": "int",
+      "cuit": "boolean",
+      "createdAt": "date",
+      "products": "Product[]",
+      "mail":""
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Post",
+      "price":"",
+      "companyId":1
+    },
+    {
+      "id": 2,
+      "name": "Post",
+      "price":"",
+      "companyId":1
+    },
+    {
+      "id": 3,
+      "name": "Post",
+      "price":"",
+      "companyId":2
+    },
+    {
+      "id": 4,
+      "name": "Post",
+      "price":"",
+      "companyId":3
+    },
+    {
+      "id": 5,
+      "name": "Post",
+      "price":"",
+      "companyId":4
+    },
+    {
+      "id": 6,
+      "name": "Post",
+      "price":"",
+      "companyId":3
+    },
+    {
+      "id": 7,
+      "name": "Post",
+      "price":"",
+      "companyId":4
+    },
+    {
+      "id": 8,
+      "name": "Post",
+      "price":"",
+      "companyId":1
+    },
+    {
+      "id": 9,
+      "name": "Post",
+      "price":"",
+      "companyId":3
+    },
+    {
+      "id": 10,
+      "name": "Post",
+      "price":"",
+      "companyId":2
+    },
+    {
+      "id": 11,
+      "name": "Post",
+      "price":"",
+      "companyId":2
+    }
+  ],
+  "invoicers": [
+    {
+      "id": 1,
+      "products": "Product[]",
+      "total":"",
+      "companyId":1,
+      "client":""
+    },
+    {
+      "id": 2,
+      "products": "Product[]",
+      "total":"",
+      "companyId":2,
+      "client":""
+    },
+    {
+      "id": 3,
+      "products": "Product[]",
+      "total":"",
+      "companyId":3,
+      "client":""
+    },
+    {
+      "id": 4,
+      "products": "Product[]",
+      "total":"",
+      "companyId":4,
+      "client":""
+    },
+    {
+      "id": 5,
+      "products": "Product[]",
+      "total":"",
+      "companyId":1,
+      "client":""
+    },
+    {
+      "id": 6,
+      "products": "Product[]",
+      "total":"",
+      "companyId":3,
+      "client":""
+    },
+    {
+      "id": 7,
+      "products": "Product[]",
+      "total":"",
+      "companyId":4,
+      "client":""
+    }
+  ]
+}
