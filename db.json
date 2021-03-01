@@ -105,7 +105,7 @@
   "invoicers": [
     {
       "id": 1,
-      "products": [{"id":4,"cantidad":1},{"id":5,"cantidad":1},{"id":6,"cantidad":1}]",
+      "products": [{"id":4,"cantidad":1},{"id":5,"cantidad":1},{"id":6,"cantidad":1}],
       "total":290.68,
       "companyId":1,
       "client":"Maria M."
