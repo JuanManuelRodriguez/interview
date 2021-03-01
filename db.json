@@ -2,154 +2,155 @@
   "companies": [
     {
       "id": 1,
-      "name": "int",
-      "cuit": "boolean",
-      "createdAt": "date",
+      "name": "Bolsas Multicolor Int.",
+      "cuit": 12345678901,
+      "createdAt": "2018-06-08 14:18:43.640",
       "products": "Product[]",
-      "mail":""
+      "mail":"Juan@facturante.com",
+      "reseller": true
     },
     {
       "id": 2,
-      "name": "int",
-      "cuit": "boolean",
-      "createdAt": "date",
+      "name": "Blanquito S.A.",
+      "cuit": 12345678902,
+      "createdAt": "2019-11-08 14:00:00.000",
       "products": "Product[]",
-      "mail":""
+      "mail":"lucas@facturante.com"
     },
     {
       "id": 3,
-      "name": "int",
-      "cuit": "boolean",
-      "createdAt": "date",
+      "name": "Papelera Inc.",
+      "cuit": 98765432121",
+      "createdAt": "2020-06-08 14:18:43.640",
       "products": "Product[]",
-      "mail":""
+      "mail":"richard.comercio@gmail.com"
     },
     {
       "id": 4,
-      "name": "int",
-      "cuit": "boolean",
-      "createdAt": "date",
+      "name": "Campanita",
+      "cuit": 14785236945,
+      "createdAt": "2019-12-28 14:18:43.640",
       "products": "Product[]",
-      "mail":""
+      "mail":"santiago@cto.com.ar
     }
   ],
   "products": [
     {
       "id": 1,
-      "name": "Post",
-      "price":"",
+      "name": "Coca Cola 243ml.",
+      "price": 13.26
       "companyId":1
     },
     {
       "id": 2,
-      "name": "Post",
-      "price":"",
+      "name": "Papel Higenico 30mt",
+      "price":26.13,
       "companyId":1
     },
     {
       "id": 3,
-      "name": "Post",
-      "price":"",
+      "name": "Pepas 350gr.",
+      "price":45.87,
       "companyId":2
     },
     {
       "id": 4,
-      "name": "Post",
-      "price":"",
+      "name": "Poste de marfil 15cm.",
+      "price":78.00,
       "companyId":3
     },
     {
       "id": 5,
-      "name": "Post",
-      "price":"",
+      "name": "Jabon de tocador 1kg",
+      "price":111.23,
       "companyId":4
     },
     {
       "id": 6,
-      "name": "Post",
-      "price":"",
+      "name": "caja para gatos mediana",
+      "price":101.45,
       "companyId":3
     },
     {
       "id": 7,
-      "name": "Post",
-      "price":"",
+      "name": "Pinta labios rosa #345",
+      "price":15.98,
       "companyId":4
     },
     {
       "id": 8,
-      "name": "Post",
-      "price":"",
+      "name": "sandwich de miga jyq",
+      "price":32.25,
       "companyId":1
     },
     {
       "id": 9,
-      "name": "Post",
-      "price":"",
+      "name": "TV blanco y negro 4k",
+      "price":32545.00,
       "companyId":3
     },
     {
       "id": 10,
-      "name": "Post",
-      "price":"",
+      "name": "banana",
+      "price":5289.25,
       "companyId":2
     },
     {
       "id": 11,
-      "name": "Post",
-      "price":"",
+      "name": "Esponja de baño",
+      "price":25.55,
       "companyId":2
     }
   ],
   "invoicers": [
     {
       "id": 1,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":4,"cantidad":1},{"id":5,"cantidad":1},{"id":6,"cantidad":1}]",
+      "total":290.68,
       "companyId":1,
-      "client":""
+      "client":"Maria M."
     },
     {
       "id": 2,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":1,"cantidad":1},{"id":2,"cantidad":2},{"id":3,"cantidad":3}],
+      "total":203.13,
       "companyId":2,
-      "client":""
+      "client":"Juan M Rodriguez"
     },
     {
       "id": 3,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":3,"cantidad":1},{"id":5,"cantidad":1},{"id":7,"cantidad":5}],
+      "total":237,
       "companyId":3,
-      "client":""
+      "client":"Guadalupe D."
     },
     {
       "id": 4,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":11,"cantidad":1},{"id":10,"cantidad":1},{"id":9,"cantidad":1}],
+      "total":37859.8,
       "companyId":4,
-      "client":""
+      "client":"Carlos Maldon"
     },
     {
       "id": 5,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":8,"cantidad":3}],
+      "total":96.75,
       "companyId":1,
-      "client":""
+      "client":"Esteban Quito"
     },
     {
       "id": 6,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":11,"cantidad":1},{"id":9,"cantidad":2}],
+      "total":65115.55,
       "companyId":3,
-      "client":""
+      "client":"Armando Roperos"
     },
     {
       "id": 7,
-      "products": "Product[]",
-      "total":"",
+      "products": [{"id":10,"cantidad":2},{"id":9,"cantidad":2}],
+      "total":75668.5,
       "companyId":4,
-      "client":""
+      "client":"Pepe Argento"
     }
   ]
 }
