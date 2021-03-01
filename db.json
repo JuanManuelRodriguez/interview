@@ -5,7 +5,7 @@
       "name": "Bolsas Multicolor Int.",
       "cuit": 12345678901,
       "createdAt": "2018-06-08 14:18:43.640",
-      "products": "Product[]",
+      "products": [1,2,8],
       "mail":"Juan@facturante.com",
       "reseller": true
     },
@@ -14,7 +14,7 @@
       "name": "Blanquito S.A.",
       "cuit": 12345678902,
       "createdAt": "2019-11-08 14:00:00.000",
-      "products": "Product[]",
+      "products": [3,10,11],
       "mail":"lucas@facturante.com"
     },
     {
@@ -22,7 +22,7 @@
       "name": "Papelera Inc.",
       "cuit": 98765432121",
       "createdAt": "2020-06-08 14:18:43.640",
-      "products": "Product[]",
+      "products": [4,6,9],
       "mail":"richard.comercio@gmail.com"
     },
     {
@@ -30,7 +30,7 @@
       "name": "Campanita",
       "cuit": 14785236945,
       "createdAt": "2019-12-28 14:18:43.640",
-      "products": "Product[]",
+      "products": [5,7],
       "mail":"santiago@cto.com.ar
     }
   ],
